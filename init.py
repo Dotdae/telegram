@@ -140,6 +140,7 @@ if __name__ == '__main__':
     schedule.every().day.at('10:00').do(weather)
     schedule.every().day.at('12:30').do(weather)
     schedule.every().day.at('16:30').do(weather)
+    schedule.every().day.at('19:35').do(weather)
     schedule.every().day.at('20:30').do(weather)
     schedule.every().day.at('00:30').do(weather)
 
