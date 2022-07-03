@@ -136,12 +136,12 @@ def sendMessage(msj):
 
 if __name__ == '__main__':
 
-    schedule.every().day.at('10:00').do(weather)
-    schedule.every().day.at('12:30').do(weather)
-    schedule.every().day.at('16:30').do(weather)
+    schedule.every().day.at('17:00').do(weather)
+    schedule.every().day.at('19:30').do(weather)
+    schedule.every().day.at('23:30').do(weather)
     schedule.every().day.at('02:13').do(weather)
-    schedule.every().day.at('20:30').do(weather)
-    schedule.every().day.at('00:30').do(weather)
+    schedule.every().day.at('03:30').do(weather)
+    schedule.every().day.at('07:30').do(weather)
 
     while True: 
         print('Ejecutando...')
