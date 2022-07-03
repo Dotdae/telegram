@@ -139,7 +139,7 @@ if __name__ == '__main__':
     schedule.every().day.at('16:00').do(weather)
     schedule.every().day.at('18:30').do(weather)
     schedule.every().day.at('22:30').do(weather)
-    schedule.every().day.at('02:30').do(weather) #8:30
+    schedule.every().day.at('02:30').do(weather)
     schedule.every().day.at('06:30').do(weather)
 
     while True: 
