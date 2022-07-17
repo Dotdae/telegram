@@ -7,7 +7,7 @@ import time
 
 def weather():
 
-    api_key = '671f3b5a521e6f484b987d5e8b79b439'
+    api_key = 'YOUR_KEY_HERE'
 
     root_url = 'http://api.openweathermap.org/data/2.5/weather?'
 
@@ -126,7 +126,7 @@ def weather():
 
 def sendMessage(msj):
 
-    bot_token = '5249429853:AAEVPP6mjKG2CUSjsIqmiIDyEDRgiGE2Ns0'
+    bot_token = 'YOUR_KEY_HERE'
     bot_id = '1051998475'
     send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_id + '&parse_mode=Markdown&text=' + msj
 
