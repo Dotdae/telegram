@@ -6,6 +6,8 @@ import time
 
 
 def weather():
+    
+    t = 'SSH test :)'
 
     api_key = 'YOUR_KEY_HERE'
 
